@@ -4,12 +4,6 @@ A simple and stylish To-Do List web application built with **HTML**, **CSS**, an
 
 ---
 
-## 📸 Preview
-
-![App Screenshot](screenshot.png) <!-- Rename if your screenshot file is different -->
-
----
-
 ## 🚀 Features
 
 - ✅ Add new tasks
