@@ -1,0 +1,115 @@
+body { 
+    background: rgb(70, 17, 102);
+    background: radial-gradient(circle, rgba(121, 0, 0, 0.03) 0%, rgb(45, 150, 92) 100%);
+    font-family:  'Poppins', sans-serif;
+    text-align: center;
+    margin-top: 50px;
+  }
+.completed {
+    text-decoration: line-through;
+    color: gray;
+    border: 1px solid gray;
+    opacity: 0.7;
+  }
+  #todo-container {
+    background: rgb(40, 63, 71);
+    width: 400px;
+    margin: 0 auto;
+    border: 2px solidrgb(106, 115, 150);
+    padding: 20px;
+    color: white;
+    border-radius: 15px;
+  }
+  #header {
+    margin: 5px;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 20px; 
+  }
+  
+  #input-box {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 5px;
+    font-size: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+
+  }
+  
+  #input-button {
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.4s;
+    padding: 10px;
+    border: none;
+    border-radius: 12px;
+    background-color: #2e60ea;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+
+  }
+  
+  #input-button:hover {
+    background-color: #9eb7fd; 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    text-align:left;
+  
+  }
+  
+  li {
+  border: 1px solid white;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+  margin-top: 10px;
+  }
+  
+  .edit-btn, .delete-btn {
+    float: right;
+    color:crimson;
+    cursor: pointer;
+    margin: 3px 5px;
+    border: none;
+    padding: 3px 5px;
+    background: none;
+  } 
+  li {
+    animation: fadeIn 0.3s ease-in-out;
+  }
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-5px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  @media (max-width: 600px) {
+    .container {
+      width: 90%;
+      padding: 1rem;
+    }
+  
+    .input-container {
+      flex-direction: column;
+    }
+  
+    .input-container input,
+    .input-container button {
+      width: 100%;
+    }
+  }
+  button:hover {
+    transform: scale(1.05);
+    background-color: #007BFF;
+  }
+  
+  
+
+  
